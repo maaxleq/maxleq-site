@@ -1,0 +1,9 @@
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"
+
+[params]
+  backgroundColor = "#FBEAD1"
+  textColor = "#000000"
+
