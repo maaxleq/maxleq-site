@@ -21,9 +21,9 @@ languages:
           pageRef: "/posts"
           identifier: "posts"
           weight: 20
-        - name: "Projects"
-          pageRef: "/projects"
-          identifier: "projects"
+        - name: "Portfolio"
+          pageRef: "/portfolio"
+          identifier: "portfolio"
           weight: 30
 
   fr:
@@ -43,9 +43,9 @@ languages:
           pageRef: "/posts"
           identifier: "posts"
           weight: 20
-        - name: "Projets"
-          pageRef: "/projects"
-          identifier: "projects"
+        - name: "Portfolio"
+          pageRef: "/portfolio"
+          identifier: "portfolio"
           weight: 30
 
 taxonomies:
@@ -67,6 +67,8 @@ params:
     - title: 'E-mail'
       icon: 'fas fa-envelope'
       url: 'mailto:maxenceleq@gmail.com'
+  customCSS:
+    - 'css/custom.css'
 
 module:
   imports:

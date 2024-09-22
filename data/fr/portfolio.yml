@@ -1,0 +1,18 @@
+portfolioitems:
+  # portfolio category
+  - title: Développement
+    description: 'Tous mes projets de développement'
+    portfolioitem:
+      - name: Agora Bot
+        image: '/images/agorabot.webp'
+        description: |
+          Un bot Discord pour lier des channels textuels appartenant à différents serveurs Discord.
+
+          *[Github](https://github.com/maaxleq/agora-bot)*
+        tags:
+          - Go
+          - Discord
+        status: 'En cours'
+        start: '2023'
+        authors:
+          - maaxleq
