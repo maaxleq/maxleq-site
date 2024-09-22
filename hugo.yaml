@@ -1,7 +1,6 @@
 baseURL: 'https://maxleq.com/'
 languageCode: 'en-us'
 title: 'Maxleq'
-theme: 'maxleq'
 defaultContentLanguage: 'fr'
 
 languages:
@@ -10,18 +9,21 @@ languages:
     languageCode: 'en'
     languageDirection: 'ltr'
     languageName: 'EN'
-    title: 'Maxleq'
+    title: 'Site'
     weight: 0
     menus:
       main:
         - name: "Home"
           pageRef: "/"
+          identifier: "home"
           weight: 10
         - name: "Posts"
           pageRef: "/posts"
+          identifier: "posts"
           weight: 20
         - name: "Projects"
           pageRef: "/projects"
+          identifier: "projects"
           weight: 30
 
   fr:
@@ -29,19 +31,44 @@ languages:
     languageCode: 'fr'
     languageDirection: 'ltr'
     languageName: 'FR'
-    title: 'Maxleq'
+    title: 'Site'
     weight: 1
     menus:
       main:
         - name: "Accueil"
           pageRef: "/"
+          identifier: "home"
           weight: 10
         - name: "Posts"
           pageRef: "/posts"
+          identifier: "posts"
           weight: 20
         - name: "Projets"
           pageRef: "/projects"
+          identifier: "projects"
           weight: 30
 
 taxonomies:
   tag: "tags"
+
+params:
+  title: 'Maxence Lequeux'
+  reversepagetitle: true
+  author: 'Maxence Lequeux'
+  description: 'Portfolio / Blog'
+  profilePicture: 'images/max.jpg'
+  socialIcons:
+    - title: 'GitHub'
+      icon: 'fab fa-github'
+      url: 'https://github.com/maaxleq'
+    - title: 'LinkedIn'
+      icon: 'fab fa-linkedin'
+      url: 'https://www.linkedin.com/in/maxence-lequeux/'
+    - title: 'E-mail'
+      icon: 'fas fa-envelope'
+      url: 'mailto:maxenceleq@gmail.com'
+
+module:
+  imports:
+    path: 'github.com/lxndrblz/anatole'
+    disable: false

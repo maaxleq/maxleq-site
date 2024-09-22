@@ -1,9 +1,0 @@
-name = 'Maxleq'
-license = 'MIT'
-description = 'Theme description'
-
-# If the theme has a single author
-[author]
-  name = 'Maxence Lequeux'
-  homepage = 'https://maxleq.com'
-  
